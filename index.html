@@ -2,50 +2,64 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Fahad Hossain Babor">
-    <meta name="description" content="This a weather updating app using HTML,CSS and Java script. This app can change the data according to the city name.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fahad Hossain Babor" />
+    <meta
+      name="description"
+      content="This a weather updating app using HTML,CSS and Java script. This app can change the data according to the city name."
+    />
     <title>Weather</title>
-    <link rel="shortcut icon" href="./Images/favicon.webp" type="image/x-icon">
-    <link rel="stylesheet" href="/Styles/style.css">
-</head>
-<body>
-
+    <link
+      rel="shortcut icon"
+      href="./Images/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/Styles/style.css" />
+  </head>
+  <body>
     <div class="card">
-        <div class="search">
-            <input id="input-field" type="text" name="" id="" placeholder="Enter City name" spellcheck="false">
-            <button id="search-btn"><img src="./Images/search.png" alt="search-button"></button>
-        </div>
-        <div class="error">
-            <p>Invalid City</p>
-        </div>
-        <div class="weather">
-            <img src="./Images/default.webp"class="weather-icon">
-            <h1 ><span class="temp">22</span>°C</h1>
-            <h2 class="city">Dhaka</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="./Images/humidity.png" alt="">
-                    <div>
-                        <p><span class="humidity">50</span>%</p>
-                        <p>Humidity</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <img src="./Images/wind.png" alt="">
-                    <div>
-                        <p><span class="wind">15</span>Km/hour</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
+      <div class="search">
+        <input
+          id="input-field"
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter City name"
+          spellcheck="false"
+        />
+        <button id="search-btn">
+          <img src="./Images/search.png" alt="search-button" />
+        </button>
+      </div>
+      <div class="error">
+        <p>Invalid City</p>
+      </div>
+      <div class="weather">
+        <img src="./Images/default.webp" class="weather-icon" />
+        <h1><span class="temp">22</span>°C</h1>
+        <h2 class="city">Dhaka</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./Images/humidity.png" alt="" />
+            <div>
+              <p><span class="humidity">50</span>%</p>
+              <p>Humidity</p>
             </div>
+          </div>
+
+          <div class="col">
+            <img src="./Images/wind.png" alt="" />
+            <div>
+              <p><span class="wind">15</span>Km/hour</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="/JS/script.js"></script>
-    
-</body>
+  </body>
 </html>
